@@ -1,0 +1,21 @@
+PODS:
+  - Utility (0.0.1)
+
+DEPENDENCIES:
+  - Utility (from `https://github.com/murali-git/Utility.git`)
+
+EXTERNAL SOURCES:
+  Utility:
+    :git: https://github.com/murali-git/Utility.git
+
+CHECKOUT OPTIONS:
+  Utility:
+    :commit: b73ec1750540f706189f1ec06284675b19bbd9c0
+    :git: https://github.com/murali-git/Utility.git
+
+SPEC CHECKSUMS:
+  Utility: b141c18ba0d66bceaa48421508f170d153970e71
+
+PODFILE CHECKSUM: 82502dd87e3510187a8c0168615de319524a6b24
+
+COCOAPODS: 1.2.0.rc.1

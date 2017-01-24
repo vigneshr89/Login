@@ -1,0 +1,22 @@
+{
+  "name": "Utility",
+  "version": "0.0.1",
+  "summary": "Shell SDK Widgets Utility will be placed here",
+  "description": "Sample Cocoa pods application to test the distributed working model for BNPP project",
+  "homepage": "https://github.com/murali-git/Utility",
+  "authors": {
+    "murali-git": "email@address.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/murali-git/Utility.git",
+    "commit": "f1d9a28a21b2acb99c238a61f316901fc834069a"
+  },
+  "source_files": [
+    "Utility",
+    "Utility/**/*.{h,m}"
+  ],
+  "public_header_files": "Utility/**/*.h"
+}
