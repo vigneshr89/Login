@@ -17,3 +17,5 @@ FOUNDATION_EXPORT const unsigned char LoginVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <Login/PublicHeader.h>
 
 
+#import <Login/HomeScreenViewController.h>
+#import <Login/CreateProfileViewController.h>

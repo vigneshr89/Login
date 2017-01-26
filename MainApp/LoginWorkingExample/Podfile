@@ -5,6 +5,6 @@ def development_pods
   pod ‘Utility’, :git => 'https://github.com/murali-git/Utility.git’
 end
  
-target ‘Login’ do
+target ‘LoginWorkingExample’ do
     development_pods
 end

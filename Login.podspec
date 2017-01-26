@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint Login.podspec' to ensure this is a
+#  Be sure to run `pod spec lint Utility.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -17,14 +17,14 @@ Pod::Spec.new do |s|
 
   s.name         = "Login"
   s.version      = "0.0.1"
-  s.summary      = "Login Project will be created here"
+  s.summary      = "Login Module Projects will be added here"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "Login Project will be created here"
+  s.description  = "Sample Cocoa pods application to test the distributed working model for BNPP project"
 
   s.homepage     = "https://github.com/murali-git/Login"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -63,10 +63,10 @@ Pod::Spec.new do |s|
   #
 
   s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+  s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
-   s.ios.deployment_target = "8.0"
+  # s.ios.deployment_target = "5.0"
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/murali-git/Login.git", :commit => "3f42f400ea550f87ce23f5607e9e52b8b17e366c" }
+  s.source       = { :git => "https://github.com/murali-git/Login.git", :commit => "f1d9a28a21b2acb99c238a61f316901fc834069a" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,9 +90,9 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "Login", "Login/**/*.{h,m}"
-  # s.exclude_files = "Login/Exclude"
+#s.exclude_files = "Classes/Exclude"
 
-   s.public_header_files = "Login/**/*.h"
+  s.public_header_files = "Utility/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

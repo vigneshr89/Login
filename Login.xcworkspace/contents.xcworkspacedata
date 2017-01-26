@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:MainApp/LoginWorkingExample/LoginWorkingExample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MainApp/LoginWorkingExample/LoginWorkingExample/../../../Login.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MainApp/LoginWorkingExample/LoginWorkingExample/../../../Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Login.xcodeproj">
    </FileRef>
    <FileRef

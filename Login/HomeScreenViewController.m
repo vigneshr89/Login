@@ -25,6 +25,20 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:[NSBundle bundleForClass:[self class]]];
+    if (self) {
+        // Custom initialization
+    }
+    return self;
+}
+
+- (IBAction)btnMoveToUtilityPOD:(id)sender {
+    LoginViewController *login = [[LoginViewController alloc]init];
+    [self.navigationController pushViewController:login animated:YES];
+}
+
 /*
 #pragma mark - Navigation
 

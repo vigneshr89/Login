@@ -1,18 +1,18 @@
 //
-//  LoginViewController.m
-//  Utility
+//  CreateProfileViewController.m
+//  Login
 //
-//  Created by Muralisankar on 19/01/17.
+//  Created by Muralisankar on 25/01/17.
 //  Copyright © 2017 BNPP. All rights reserved.
 //
 
-#import "LoginViewController.h"
+#import "CreateProfileViewController.h"
 
-@interface LoginViewController ()
+@interface CreateProfileViewController ()
 
 @end
 
-@implementation LoginViewController
+@implementation CreateProfileViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -32,7 +32,6 @@
     }
     return self;
 }
-
 
 /*
 #pragma mark - Navigation

@@ -16,7 +16,8 @@
   },
   "source_files": [
     "Utility",
-    "Utility/**/*.{h,m}"
+    "Utility/**/*.{h,m,xib}"
   ],
-  "public_header_files": "Utility/**/*.h"
+  "public_header_files": "Utility/**/*.h",
+  "resources": "*.xib"
 }
