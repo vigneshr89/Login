@@ -8,6 +8,5 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/murali-git/Login.git", :commit => "f1d9a28a21b2acb99c238a61f316901fc834069a" }
-  s.source_files  = "Login", "Login/**/*.{h,m}"
-  s.public_header_files = "Utility/**/*.h"
+  s.source_files  = "Login", "../../Login/**/*.{h,m}"
 end
